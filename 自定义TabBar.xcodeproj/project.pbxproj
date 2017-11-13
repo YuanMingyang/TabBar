@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		2F7A2F941FB97DBE009FA05E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A2F931FB97DBE009FA05E /* AppDelegate.m */; };
-		2F7A2F971FB97DBE009FA05E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A2F961FB97DBE009FA05E /* ViewController.m */; };
 		2F7A2F9A1FB97DBE009FA05E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7A2F981FB97DBE009FA05E /* Main.storyboard */; };
-		2F7A2F9C1FB97DBE009FA05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7A2F9B1FB97DBE009FA05E /* Assets.xcassets */; };
 		2F7A2F9F1FB97DBE009FA05E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7A2F9D1FB97DBE009FA05E /* LaunchScreen.storyboard */; };
 		2F7A2FA21FB97DBE009FA05E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A2FA11FB97DBE009FA05E /* main.m */; };
+		2F7A2FAC1FB9811D009FA05E /* BaseTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A2FAB1FB9811D009FA05E /* BaseTabbarController.m */; };
+		2F7A2FAF1FB9815C009FA05E /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A2FAE1FB9815C009FA05E /* MyTabBar.m */; };
+		2F7A2FB21FB9827C009FA05E /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A2FB11FB9827C009FA05E /* MyButton.m */; };
+		2F7A2FB51FB98D10009FA05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7A2FB41FB98D10009FA05E /* Assets.xcassets */; };
+		2F7A2FB81FB99293009FA05E /* WJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A2FB71FB99293009FA05E /* WJViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F7A2F8F1FB97DBE009FA05E /* 自定义TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义TabBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7A2F921FB97DBE009FA05E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2F7A2F931FB97DBE009FA05E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2F7A2F951FB97DBE009FA05E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2F7A2F961FB97DBE009FA05E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2F7A2F991FB97DBE009FA05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2F7A2F9B1FB97DBE009FA05E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F7A2F9E1FB97DBE009FA05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F7A2FA01FB97DBE009FA05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F7A2FA11FB97DBE009FA05E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F7A2FAA1FB9811D009FA05E /* BaseTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabbarController.h; sourceTree = "<group>"; };
+		2F7A2FAB1FB9811D009FA05E /* BaseTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarController.m; sourceTree = "<group>"; };
+		2F7A2FAD1FB9815C009FA05E /* MyTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
+		2F7A2FAE1FB9815C009FA05E /* MyTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
+		2F7A2FB01FB9827C009FA05E /* MyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		2F7A2FB11FB9827C009FA05E /* MyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		2F7A2FB31FB988DD009FA05E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2F7A2FB41FB98D10009FA05E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F7A2FB61FB99293009FA05E /* WJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJViewController.h; sourceTree = "<group>"; };
+		2F7A2FB71FB99293009FA05E /* WJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +68,40 @@
 		2F7A2F911FB97DBE009FA05E /* 自定义TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				2F7A2FA91FB98108009FA05E /* View */,
+				2F7A2FA81FB980FF009FA05E /* Controller */,
 				2F7A2F921FB97DBE009FA05E /* AppDelegate.h */,
 				2F7A2F931FB97DBE009FA05E /* AppDelegate.m */,
-				2F7A2F951FB97DBE009FA05E /* ViewController.h */,
-				2F7A2F961FB97DBE009FA05E /* ViewController.m */,
+				2F7A2FB31FB988DD009FA05E /* PrefixHeader.pch */,
 				2F7A2F981FB97DBE009FA05E /* Main.storyboard */,
-				2F7A2F9B1FB97DBE009FA05E /* Assets.xcassets */,
 				2F7A2F9D1FB97DBE009FA05E /* LaunchScreen.storyboard */,
+				2F7A2FB41FB98D10009FA05E /* Assets.xcassets */,
 				2F7A2FA01FB97DBE009FA05E /* Info.plist */,
 				2F7A2FA11FB97DBE009FA05E /* main.m */,
 			);
 			path = "自定义TabBar";
+			sourceTree = "<group>";
+		};
+		2F7A2FA81FB980FF009FA05E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F7A2FAA1FB9811D009FA05E /* BaseTabbarController.h */,
+				2F7A2FAB1FB9811D009FA05E /* BaseTabbarController.m */,
+				2F7A2FB61FB99293009FA05E /* WJViewController.h */,
+				2F7A2FB71FB99293009FA05E /* WJViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F7A2FA91FB98108009FA05E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F7A2FAD1FB9815C009FA05E /* MyTabBar.h */,
+				2F7A2FAE1FB9815C009FA05E /* MyTabBar.m */,
+				2F7A2FB01FB9827C009FA05E /* MyButton.h */,
+				2F7A2FB11FB9827C009FA05E /* MyButton.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F7A2F9F1FB97DBE009FA05E /* LaunchScreen.storyboard in Resources */,
-				2F7A2F9C1FB97DBE009FA05E /* Assets.xcassets in Resources */,
+				2F7A2FB51FB98D10009FA05E /* Assets.xcassets in Resources */,
 				2F7A2F9A1FB97DBE009FA05E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F7A2F971FB97DBE009FA05E /* ViewController.m in Sources */,
 				2F7A2FA21FB97DBE009FA05E /* main.m in Sources */,
+				2F7A2FAC1FB9811D009FA05E /* BaseTabbarController.m in Sources */,
 				2F7A2F941FB97DBE009FA05E /* AppDelegate.m in Sources */,
+				2F7A2FB81FB99293009FA05E /* WJViewController.m in Sources */,
+				2F7A2FAF1FB9815C009FA05E /* MyTabBar.m in Sources */,
+				2F7A2FB21FB9827C009FA05E /* MyButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4LY4RUXVY;
+				GCC_PREFIX_HEADER = "/Users/A589/Desktop/TabBar-master/自定义TabBar/PrefixHeader.pch";
 				INFOPLIST_FILE = "自定义TabBar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.edoctor.---TabBar";
@@ -294,6 +331,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4LY4RUXVY;
+				GCC_PREFIX_HEADER = "/Users/A589/Desktop/TabBar-master/自定义TabBar/PrefixHeader.pch";
 				INFOPLIST_FILE = "自定义TabBar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.edoctor.---TabBar";

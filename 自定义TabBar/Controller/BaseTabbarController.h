@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  BaseTabbarController.h
 //  自定义TabBar
 //
 //  Created by Yang on 2017/11/13.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface BaseTabbarController : UITabBarController
 
 @end
-

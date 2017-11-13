@@ -1,15 +1,14 @@
 //
-//  ViewController.h
+//  PrefixHeader.pch
 //  自定义TabBar
 //
 //  Created by Yang on 2017/11/13.
 //  Copyright © 2017年 A589. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
 
-@interface ViewController : UIViewController
 
 
-@end
-
+#endif /* PrefixHeader_pch */
